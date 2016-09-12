@@ -1,0 +1,12 @@
+<script>
+var characters = prompt("please type!") 
+var numberofcharacters = characters.length 
+var charactersleft = 140-characters.length
+var charactersover = characters.length-140
+if (characters.length > 140) 
+    confirm("Character limit exceeded: " +charactersover) 
+    if (characters.length < 140)
+        confirm ("Characters left: " + charactersleft) 
+        if (characters.length === 140) 
+        confirm ("Character limit reached")
+ </script>
