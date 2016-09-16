@@ -1,0 +1,19 @@
+<script>
+    //v^2f = v^2i + 2ad
+    function endVelocity(initialVelocity, acceleration, distance)
+    {        
+        var visquared = initialVelocity * initialVelocity 
+        var rightTerm = 2*acceleration*distance 
+        var leftTerm = visquared 
+        leftSide = leftTerm + rightTerm 
+        leftSide = Math.sqrt(leftSide) 
+        
+        console.log("The result is; " + leftSide); 
+        
+    }
+    
+    endVelocity(5, 1, 2) 
+    
+    
+    
+    </script>
