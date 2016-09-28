@@ -1,0 +1,27 @@
+<script>
+alert("You're buying an apple!");
+var appleCost = 5.69;
+    var cashPaid = prompt("How much are you paying?");
+    var change = cashPaid - 5.69;
+    var ones = Math.floor(change/1);
+    change = change - ones;
+    var quarters = Math.floor(change/0.25); 
+    change = change - (quarters*0.25);
+    var dimes = Math.floor(change/0.10); 
+     change = change - (dimes*0.10);
+    var nickels = Math.floor(change/0.05); 
+   change = change - (nickels*0.05);
+    var pennies = Math.round(change/0.01);
+    change = change - (pennies*0.01);
+    if (cashPaid < 5.69) {
+        alert("Not enough Funds")
+        
+    } else if (cashPaid === 5.69 ) { 
+        alert("Perfect amount of funds; no change") 
+     
+    } else if (cashPaid > 5.69)  {
+        alert("Calculating change") 
+    }
+    alert("Your change is: " + " ones: "  +  ones  +  " quarters: "  +  quarters + " dimes: " +  dimes  + " nickels: " + nickels + " pennies: " + pennies)
+
+</script>
