@@ -1,0 +1,98 @@
+html { 
+    height: 100%;
+    background: url(../images/Background.jpeg);
+    background-size: cover; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+    background-color: "white";
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#photoWrapper {
+    width: 50%;   
+    margin-left: 25%;
+    
+}
+#thePhoto {
+    width: 100%;
+    border-style: solid;
+    border-width: 5px; 
+    border-color: white; 
+}
+#forwardBtn {
+    position: relative;
+    float: right;
+        }
+button {
+    background: white; 
+    color: black; 
+}
+ .centerME{
+    text-align: center; 
+     color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+p.centerMe{
+    margin-left: 20% 
+    width: 60%
+}
+      h1  {
+          font-family: 'Pinyon Script', cursive;
+          font-size: 60px;
+        }
+p {
+    font-family: 'Pinyon Script', cursive; 
+    font-size: 60px; 
+}
+
+     
+#chart_div { 
+    margin-left: 25%;
+      width: 50%;
+        }
