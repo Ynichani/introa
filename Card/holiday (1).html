@@ -1,0 +1,52 @@
+    <html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head> 
+    <body>
+       
+        
+               
+    <ul>
+  <li><a href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Happy</a>
+      <a href="#">Holidays!</a>
+    </div>
+  </li>
+</ul>  
+        
+     
+<p id="trick">Happy New Years!</p>
+<button onclick="myFunction()">Press this!</button>
+<script>
+function myFunction() {
+    var x = document.getElementById("trick");
+    x.style.color = "white";
+}
+</script>
+    
+        <div class="pageWrapper">
+        <h1 class ="centerMe">Happy Holidays!</h1>
+        <div id="photoWrapper">
+        <img src=" " id= "thePhoto">
+               <button id ="forwardBtn" type="button">Forward</button>
+        <button id ="backBtn" type="button">Back</button>
+        </div> 
+            <p class ="centerMe"> From the Nichani family! </p>
+             
+           
+            <div id ="chart_div"</div>
+           
+            
+        
+        </div>
+        <!--Load the AJAX API-->
+        <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src ="holiday.js"  type="text/javascript"></script>
+        
+    </body>
+</html>
